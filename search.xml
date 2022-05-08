@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>谷歌浏览器清除指定页面缓存</title>
+      <link href="/2022/05/08/commom_skills/remove_page/"/>
+      <url>/2022/05/08/commom_skills/remove_page/</url>
+      
+        <content type="html"><![CDATA[<p>在布置个人静态博客时遇到了一个问题，当使用<code>hexo s</code>在本地查看效果时是没有问题的，但是当上传部署之后，在远端并没有实现想要的效果，这是因为你使用的浏览器缓存在作怪，他默认加载的是你上次的浏览页面，即使你刷新也无济于事。<br>本文针对google浏览器，实现网页的缓存清理，一般有两种方法，建议使用第二种。</p><h1 id="第一种方式"><a href="#第一种方式" class="headerlink" title="第一种方式"></a>第一种方式</h1><p>1、点击谷歌浏览器右上角三个圆点，然后点击选择<code>设置</code>选项<br>2、点击左侧<code>隐私设置和安全性</code>，再点击右侧<code>清除浏览数据</code>，你也可以根据自己选择删除一些缓存。但这种方法会将你各种网页的cookie都删除了，方式二可以删除指定页面的缓存。</p><h1 id="第二种方式"><a href="#第二种方式" class="headerlink" title="第二种方式"></a>第二种方式</h1><p>1、打开个人blog</p><p>2、按<code>F12</code>打开开发者模式</p><p>3、找到页面左上角刷新按钮<em>点击右键</em>，会出现三个选项：正常重新加载，硬性重新加载，清空缓存并硬性重新加载，点第三个</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">正常重新加载 Ctrl+R：正常重新加载。 </span><br><span class="line">硬性重新加载：Ctrl+Shift+R:浅层次的清除历史记录，但不一定缓存完全清除。(Ctrl+F5)同理。 </span><br><span class="line">清空缓存并硬性重新加载：可以深层次的清除所有的缓存。(建议用这个)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 常用技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> skills </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文档演示</title>
       <link href="/2022/05/08/test/firstcmt/"/>
       <url>/2022/05/08/test/firstcmt/</url>
